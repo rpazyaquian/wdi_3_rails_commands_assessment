@@ -2,6 +2,8 @@
 
 Fork, clone, and write your answers directly in this file. Then submit a pull request.
 
+  Note: I made a sample Rails app alongside this quiz, to check my work.
+
 ### Question 1
 
 I want to start a new Rails project/app called `BunnyApp`. What command should I type in the terminal?
