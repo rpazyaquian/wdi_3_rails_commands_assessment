@@ -9,6 +9,7 @@ Fork, clone, and write your answers directly in this file. Then submit a pull re
 I want to start a new Rails project/app called `BunnyApp`. What command should I type in the terminal?
 
     rails new BunnyApp --database=postgresql
+    CORRECTION: We will generally want to set the -T flag to not create tests, for now.
 
 ### Question 2
 
@@ -20,7 +21,7 @@ I want to create a new model called `Bunny`, with the following attributes: name
 
 What does the command in Question 2 do, exactly? What files are created, where are they located, and what does the database look like at this time? Explain.
 
-    Rails generates a Model file for us called bunny.rb with a skeleton Bunny class under app/models, as well as a matching CreateBunny migration file under app/db/migrations with the attributes and datatypes we've specified. The database does not change until the migrations are run.
+    Rails generates a Model file for us called bunny.rb with a skeleton Bunny class under app/models, as well as a matching CreateBunny migration file under app/db/migrate with the attributes and datatypes we've specified. The database does not change until the migrations are run.
 
 ### Question 4
 
@@ -36,6 +37,9 @@ I want to look at the actual database that has been created. What command should
     psql
     > \c BunnyApp_development
     > \dt
+
+    CORRECTION: rails db
+    Technically, the above answer is correct - but it's more complicated than rails db.
 
 ### Question 6
 
