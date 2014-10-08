@@ -26,16 +26,16 @@ What does the command in Question 2 do, exactly? What files are created, where a
 
 I want to create a database and make it reflect the new model I created in Question 2. What command(s) should I type in the terminal?
 
-  rake db:create
-  rake db:migrate
+    rake db:create
+    rake db:migrate
 
 ### Question 5
 
 I want to look at the actual database that has been created. What command should I type in the terminal?
 
-  psql
-  > \c BunnyApp_development
-  > \dt
+    psql
+    > \c BunnyApp_development
+    > \dt
 
 ### Question 6
 
