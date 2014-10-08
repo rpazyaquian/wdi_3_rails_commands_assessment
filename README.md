@@ -2,7 +2,7 @@
 
 Fork, clone, and write your answers directly in this file. Then submit a pull request.
 
-  Note: I made a sample Rails app alongside this quiz, to check my work.
+    Note: I made a sample Rails app alongside this quiz, to check my work.
 
 ### Question 1
 
